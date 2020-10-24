@@ -1,0 +1,197 @@
+<html lang='en'>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <!--    Navbar Started Here -->
+    <nav>
+        <ul class="topnav" id="dropdownclick">
+            <li><a href="index.html">HOME</a></li>
+            <li id="mybtn2"><a href="#about">ABOUT</a></li>
+            <li onclick="fuc3()"><a href="#products">PRODUCTS</a></li>
+            <li onclick="fuc4()"><a href="#swags">SWAGS</a></li>
+            <li onclick="fuc5()"><a href="#contact">CONTACT</a></li>
+            <li class="topnav-right" id="mybtn"><a href="#signin">SIGN-IN</a></li>
+            <li id="mybtn1" class="topnav-right"><a href="#signup">SIGN-UP</a></li>
+            <li class="dropdownicon"><a href="javascript:void(0);" onclick="dropdownmenu()"> &#9776;</a></li>
+        </ul>
+    </nav>
+
+    <!--    NAVBAR ENDS HERE   -->
+    <!--    Section-1  -->
+    <div class="container" id="secion-1-background">
+        <div class="row">
+            <div class="col-6">
+                <div class="left-col">
+                    <h1 class="h1-lg"><b>The Pentagon</b></h1>
+                    <h3 class="h3-md"><b>we work together</b></h3>
+                    <br>
+                    <form>
+                        <input id="txt1" class="input-1" type="text" placeholder="your question ?"><br><br>
+                        <input id="txt2" class="input-1" type="text" placeholder="whome you want to ask ?"><br><br>
+                        <button onclick="btn1()" type="submit" class="btn-lg">Submit</button>
+                    </form>
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="right-col">
+                    <img src="halloween-2905531_1920.jpg">
+                </div>
+            </div><br><br><br>
+            <button onclick="fuc1()" type="submit" class="btn-lg1">Submit</button>
+        </div>
+    </div>
+    <!--    Section-2 Started here  -->
+    <div class="container" id="section-2">
+        <div class="row">
+            <div class="col-12 col-12-1">
+                <img class="sec-2" src="sec-2.png">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <div class="hal col-12-2">We Organise a halloween Party
+                    and we give childrens a wonderful experience of there life.</div>
+                <button onclick="fuc2()" class="btn-lg-1" type="more">More Information</button>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-6 col-6-1">
+                <p>
+                    <b> My Most,<br><br><br><br>
+
+                        <h1><b>Trusted Resources</b></h1>
+                        <p>These are the exact tools that have helped me create all my online businesses.
+                        </p>
+                        <p>Without them, I am incomplete.</p>
+                        <p>I, my MacBook, theInternet and these tools are the lifeline of all my online businesses. Check them out. To view all the resources I use, click the link below.
+                        </p>
+                        My favorite resources are Siteground and Semrush (free 14 days trial) - The absolute best hosting for your blog.
+
+                        View All Resources
+                    </b>
+            </div>
+            <div class="col-6 col-6-2">
+                <a href="#"><img class="sec-3-img" src="sec-3.png"></a>
+            </div>
+
+        </div>
+
+    </div>
+    <!--    Section-3 Started Here  -->
+    <div class="container">
+        <div class="row">
+            <div class="col-12-3">
+                <a href="#"><button onclick="ButtonClicked()" type="submit" class="btn-exl">Visit Blogs</button></a>
+            </div>
+        </div>
+        <div class="row">
+            <p class="para">Also read my comprehensive article on <a href="#">how to earn money online</a> Where you will get the most up to date knowledge on current working methods for making money online.</p>
+        </div>
+    </div>
+    <!--    Section-4 Started here  -->
+    <div class="container" id="footer">
+        <div class="row">
+            <div class="col-4 col-4-1">
+                <h1>Copyright</h1>
+                <h4>&#x24B8; Aadesh Singh</h4>
+            </div>
+            <div class="col-4 col-4-1">
+                <h1>Contacts</h1>
+                <h4>Phone : 9354275363</h4>
+                <h4>Email : aadeshsingh146@gmail.com</h4>
+            </div>
+            <div class="col-4 col-4-1">
+                <h1>Products</h1>
+                <h5>Masks</h5>
+                <h5>Haunting Trip</h5>
+                <h5>Thrilling Experience</h5>
+            </div>
+        </div>
+    </div>
+    <!--THE MODAL-->
+    <div id="myModal" class="modal">
+        <!--  Modal Content    -->
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <form>
+                <h3> LOG-IN </h3>
+                <b>
+                    <div>Enter Your Email Address</div>
+                </b>
+                <input class="input-2" type="email" placeholder="abc@email.com" width="400px">
+                <br><br>
+                <b>
+                    <div>Enter your Password</div>
+                </b>
+                <input class="input-2" type="password" placeholder="password" width="200px"><br>
+                <a class="mod-a" href="#forget">forget password ?</a><br><br>
+                <button type="submit" class="btn-login" id="login">Log-In</button>
+
+            </form>
+
+        </div>
+    </div>
+    <!--    Modal-2-->
+    <div id="myModal1" class="modal1">
+        <!--  Modal Content    -->
+        <div class="modal-content1">
+            <span class="close1">&times;</span>
+            <form>
+                <h3> SIGN-UP </h3>
+                <b>
+                    <div>Enter Your Email Address</div>
+                </b>
+                <input class="input-3" type="email" placeholder="abc@email.com" width="400px">
+                <br><br>
+                <b>
+                    <div>Enter your Password</div>
+                </b>
+                <input class="input-3" type="password" placeholder="password" width="200px"><br>
+                <a class="mod-a" href="#forget">forget password ?</a><br><br>
+                <button type="submit" class="btn-signup" id="signup">SIGN-UP</button>
+
+            </form>
+
+        </div>
+    </div>
+    <!--    Modal-3-->
+    <div id="myModal2" class="modal2">
+        <!--  Modal Content    -->
+        <div class="modal-content2">
+            <span class="close2">&times;</span>
+            <h3> <b>ABOUT THE CREATOR</b> </h3>
+            <p>
+                This is a project WEBSITE
+                which is created by Aadesh Singh.<br>
+                student of HMR Institute of technology and management.
+                this website is not a copy , Its is geneunly created by
+                <b>Aadesh Singh</b> for sole purpose of learning Web development .<br>
+                <i>this website is inspired by other wesites.</i>
+            </p>
+
+        </div>
+    </div>
+
+
+    <!--    Script   -->
+    <script>
+        function dropdownmenu() {
+            var x = document.getElementById("dropdownclick");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+                /* change class topnav to topnav.responsive*/
+            } else
+                x.className = "topnav";
+        }
+
+    </script>
+    <script src="hal.js"></script>
+</body>
+
+</html>
